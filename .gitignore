@@ -58,7 +58,7 @@ cover/
 #Envirnonments
 .env
 .env.*
-.artifacts
+
 
 # Django stuff:
 *.log
