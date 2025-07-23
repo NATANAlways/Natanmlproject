@@ -26,8 +26,9 @@ Predict students' exam scores based on features such as parental education level
 
 ---
 
-## 🗂️ Project Structure
+### 🗂️ Project Structure
 
+```
 Natanmlproject-main/
 │
 ├── artifacts/                   # Contains saved model, preprocessor, and train/test split data
@@ -52,6 +53,8 @@ Natanmlproject-main/
 ├── setup.py                     # Setup script to make the project pip-installable
 ├── requirements.txt             # Python dependencies
 └── README.md                    # Project documentation
+```
+
 
 
 
