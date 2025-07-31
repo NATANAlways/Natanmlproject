@@ -24,7 +24,7 @@ Predict students' exam scores based on features such as parental education level
 - Modular pipeline (`src/` directory)
 - Git for version control
 
----
+```
 
 ### 🗂️ Project Structure
 
@@ -78,7 +78,7 @@ Input the data and click the Predict button:
 
 <img width="1584" height="950" alt="image" src="https://github.com/user-attachments/assets/3120dd2e-5f61-48a3-8b26-cd443408fbb6" />
 
-'''
+```
 
 
 
