@@ -26,33 +26,33 @@ Predict students' exam scores based on features such as parental education level
 
 ```
 
-### 🗂️ Project Structure
+## 📁 Project Structure
 
 ```
 Natanmlproject-main/
 │
-├── artifacts/                   # Contains saved model, preprocessor, and train/test split data
-│   ├── model.pkl
-│   ├── preprocessor.pkl
-│   ├── train.csv
-│   └── test.csv
+├── artifacts/                         # Stores model artifacts
+│   ├── model.pkl                      # Trained ML model
+│   ├── preprocessor.pkl               # Preprocessing pipeline
+│   ├── train.csv                      # Training dataset
+│   └── test.csv                       # Testing dataset
 │
-├── notebook/                    # Jupyter notebook for model development and experimentation
+├── notebook/                          # Jupyter notebooks for experimentation
 │   └── Untitled74.ipynb
 │
-├── src/                         # Source code: utils, logging, exception handling
+├── src/                               # Core source code
 │   ├── __init__.py
-│   ├── logger.py
-│   ├── exception.py
-│   └── utils.py
+│   ├── logger.py                      # Custom logger
+│   ├── exception.py                   # Exception handling
+│   └── utils.py                       # Utility functions
 │
-├── templates/                   # HTML templates for Flask frontend
+├── templates/                         # HTML templates for Flask frontend
 │   └── index.html
 │
-├── app.py                       # Flask application for web-based predictions
-├── setup.py                     # Setup script to make the project pip-installable
-├── requirements.txt             # Python dependencies
-└── README.md                    # Project documentation
+├── app.py                             # Flask web app for predictions
+├── setup.py                           # Setup script for pip installation
+├── requirements.txt                   # Python dependencies
+└── README.md                          # Project documentation
 ```
 
 ---
