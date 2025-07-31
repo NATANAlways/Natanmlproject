@@ -1,3 +1,35 @@
-<h1>
-    Welcome to the home page
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home | Student Exam Predictor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to the Student Exam Performance Predictor</h1>
+
+    <form action="{{ url_for('predict_datapoint') }}" method="get">
+        <button type="submit">Go to Maths Score Prediction</button>
+    </form>
+
+</body>
+</html>

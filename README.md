@@ -80,8 +80,36 @@ Input the data and click the Predict button:
 
 ```
 
+## 📌 Sample
+
+When you run:
+
+```bash
+python app.py
+
+type url: http://127.0.0.1:5000/
 
 
+![alt text](image.png)
+
+
+
+
+Click the Predict button to go to: http://127.0.0.1:5000/predictdata?
+
+
+![alt text](image-1.png)
+
+
+
+
+Input the data and click the Predict button:
+
+
+![alt text](image-2.png)
+
+
+```
 
 
 
